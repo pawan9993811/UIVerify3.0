@@ -1,0 +1,75 @@
+﻿<UserControl x:Class="Schwab.Parts.Session.LayoutContainerView"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:Primitive="clr-namespace:Schwab.Controls.Primitive;assembly=Schwab.Controls.Primitive"
+		xmlns:schwabwindow="clr-namespace:Schwab.Controls.Application;assembly=Schwab.Controls.Application"
+		xmlns:scm="clr-namespace:System.ComponentModel;assembly=WindowsBase" xmlns:local="clr-namespace:Schwab.Parts.Session"
+		xmlns:Core="clr-namespace:Core;assembly=Core" AllowDrop="True">
+	<UserControl.Resources>
+		<DataTemplate x:Key="TabContentTemplate">
+			<!--<local:LayoutView /> -->
+			<ContentPresenter Content="{Binding Path=View}" DataContext="{Binding}" />
+		</DataTemplate>
+
+		<Primitive:ConvertBoolToVisibility x:Key="ConvertBoolToVisibility" />
+		<!--<CollectionViewSource x:Key="cvs" Source="{Binding Path=LayoutItems}">
+			<CollectionViewSource.SortDescriptions>
+				<scm:SortDescription PropertyName="DisplayOrder" Direction="Ascending"   />
+			</CollectionViewSource.SortDescriptions>
+		</CollectionViewSource>-->
+	</UserControl.Resources>
+
+	<Grid x:Name="uiTabControlGrid" Background="#004A4641">
+		<Primitive:LayoutTabControl HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+				IsSynchronizedWithCurrentItem="True" TabStripPlacement="Bottom" Grid.RowSpan="3" Grid.Row="1"
+				Background="#FF68635A" BorderBrush="#FF817C74" Margin="-2,-2,-1,0" x:Name="uiLayoutTabs"
+				BorderThickness="1,0,0,1" Style="{DynamicResource StyleLayoutTabControl}" AcceptEmptyNames="False"
+				GridSplitterVisibility="{Binding IsGridSplitterAvailable, Converter={StaticResource ConvertBoolToVisibility}}"
+				ItemsSource="{Binding Path=LayoutItems}" SelectedIndex="{Binding SelectedLayoutIndex}"
+				IsPrimaryContainer="{Binding IsPrimaryContainer}" ContentTemplate="{StaticResource TabContentTemplate}"
+				BottomRightContent="{Binding BottomRightContent}"
+				ZoomFactor="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type schwabwindow:SchwabCustomWindow}}, Path=ZoomFactor}"
+				IsDuplicateNamesAvailable="{Binding Path=IsDuplicateNamesAvailable, Mode=TwoWay}">
+			<Primitive:LayoutTabControl.MenuContent>
+				<Button x:Name="uiAddButton" Content="+" FontWeight="Bold"
+						FontSize="{DynamicResource TheFontSizePlus03}" Foreground="#FFCECECE"
+						Command="{Binding AddItem}" CommandParameter="{Binding SelectedLayoutIndex}"
+						Style="{DynamicResource StyleImageButton}" Margin="0,4,0,4" Width="17" Padding="1,0,1,0" />
+			</Primitive:LayoutTabControl.MenuContent>
+			<Primitive:LayoutTabControl.BottomLeftContent>
+				<ToggleButton Style="{DynamicResource StyleShellToggleButtons}" Content="Tools" Height="24" Width="69"
+						FontWeight="Bold" FontSize="{DynamicResource TheFontSizePlus02}" Padding="1,0,1,1"
+						Foreground="#FFFFFFFF" Background="{x:Null}" BorderBrush="{x:Null}" x:Name="uiToolsButton"
+						Visibility="{Binding IsGridSplitterAvailable, Converter={StaticResource ConvertBoolToVisibility}}"
+						IsChecked="False" />
+			</Primitive:LayoutTabControl.BottomLeftContent>
+			<Primitive:LayoutTabControl.SidebarContent>
+				<Grid>
+
+					<ContentPresenter VerticalAlignment="Bottom" x:Name="uiToolDrawer"
+							Content="{Binding ToolDrawerViewModel.View}" Grid.Row="3"
+							DataContext="{Binding ToolDrawerViewModel}" />
+				</Grid>
+			</Primitive:LayoutTabControl.SidebarContent>
+			<Primitive:LayoutTabControl.RightContent>
+				<Grid Visibility="{Binding IsRightContentAvailable, Converter={StaticResource ConvertBoolToVisibility}}">
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width="*" />
+						<ColumnDefinition Width="35" />
+					</Grid.ColumnDefinitions>
+					<StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0,4,7,0">
+						<TextBlock Text="$DJI" Foreground="#FFFFFFFF" Margin="0,0,6,0" />
+						<TextBlock Text="+67.56 (+0.06%)" Foreground="#FF36CA07" Margin="0,0,12,0" />
+						<TextBlock Text="$COMPX" Foreground="#FFFFFFFF" Margin="0,0,6,0" />
+						<TextBlock Text="+12.13 (+0.55%)" Foreground="#FF36CA07" Margin="0,0,12,0" />
+						<TextBlock Text="$SPX" Foreground="#FFFFFFFF" Margin="0,0,6,0" />
+						<TextBlock Text="$-7.28 (-0.57%)" Foreground="#FFC61C1C" Margin="0,0,6,0" />
+					</StackPanel>
+				</Grid>
+			</Primitive:LayoutTabControl.RightContent>
+			<!--<Primitive:LayoutTabControl.BottomRightContent>
+				<Primitive:Workspacezoom />
+			</Primitive:LayoutTabControl.BottomRightContent>-->
+		</Primitive:LayoutTabControl>
+	</Grid>
+</UserControl>

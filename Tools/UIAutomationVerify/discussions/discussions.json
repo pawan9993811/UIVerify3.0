@@ -1,0 +1,162 @@
+[
+  {
+    "Id": "23467",
+    "Title": "Welcome to UI Automaiton Verify (UIA Verify) Project!",
+    "LatestDate": "2008-03-05T15:15:45.017-08:00"
+  },
+  {
+    "Id": "24997",
+    "Title": "What dev environment is required to open solution?",
+    "LatestDate": "2008-04-04T12:28:17.807-07:00"
+  },
+  {
+    "Id": "26436",
+    "Title": "Could you please provide more Mouse function",
+    "LatestDate": "2008-08-14T00:06:33.67-07:00"
+  },
+  {
+    "Id": "28647",
+    "Title": "Missing files in the sources",
+    "LatestDate": "2008-05-29T10:51:58.853-07:00"
+  },
+  {
+    "Id": "29155",
+    "Title": "When to use UIA vs. AccChecker vs. AccExplorer32",
+    "LatestDate": "2008-06-26T14:15:02.28-07:00"
+  },
+  {
+    "Id": "31231",
+    "Title": "UI Automation Testing for infragitics controls",
+    "LatestDate": "2009-10-20T03:55:53.367-07:00"
+  },
+  {
+    "Id": "38057",
+    "Title": "UIA Verify updates?",
+    "LatestDate": "2008-10-20T04:25:25.04-07:00"
+  },
+  {
+    "Id": "39009",
+    "Title": "What can I do with UIA Verify ?",
+    "LatestDate": "2008-11-01T15:35:33.63-07:00"
+  },
+  {
+    "Id": "40182",
+    "Title": "control's ReadOnly == false",
+    "LatestDate": "2008-11-18T01:24:01.377-08:00"
+  },
+  {
+    "Id": "54849",
+    "Title": "checking UI automation ariaRole and ariaProperties",
+    "LatestDate": "2009-04-29T09:35:13.23-07:00"
+  },
+  {
+    "Id": "55571",
+    "Title": "Exception of type 'System.ArgumentException' ",
+    "LatestDate": "2009-05-07T03:11:59.057-07:00"
+  },
+  {
+    "Id": "64961",
+    "Title": "The application failed to initialize properly",
+    "LatestDate": "2009-08-09T03:08:39.66-07:00"
+  },
+  {
+    "Id": "66713",
+    "Title": "Finding controls on an embedded html page",
+    "LatestDate": "2009-08-22T20:59:24.87-07:00"
+  },
+  {
+    "Id": "72624",
+    "Title": "How can i access the menuitem in Menu Bar",
+    "LatestDate": "2009-10-21T01:09:39.417-07:00"
+  },
+  {
+    "Id": "78540",
+    "Title": "templated control will be displayed not correct",
+    "LatestDate": "2009-12-18T02:22:02.04-08:00"
+  },
+  {
+    "Id": "220835",
+    "Title": "How does UIA Verify builds the hierarchy",
+    "LatestDate": "2010-07-22T22:19:25.287-07:00"
+  },
+  {
+    "Id": "224930",
+    "Title": "Help me in writing basic code ",
+    "LatestDate": "2010-08-26T04:55:40.637-07:00"
+  },
+  {
+    "Id": "258715",
+    "Title": "Cannot get data point label text via UI Automation API",
+    "LatestDate": "2011-05-23T18:59:18.963-07:00"
+  },
+  {
+    "Id": "258738",
+    "Title": "Visual UIAVerify cannot compile+ run from VS 2008",
+    "LatestDate": "2012-12-18T00:22:46.187-08:00"
+  },
+  {
+    "Id": "259931",
+    "Title": "Problem with discovering objects - Focus Tracking mechanizm as a solution",
+    "LatestDate": "2011-06-02T06:32:11.637-07:00"
+  },
+  {
+    "Id": "341334",
+    "Title": "Error while installing UIA Verify",
+    "LatestDate": "2012-12-18T00:18:29.297-08:00"
+  },
+  {
+    "Id": "353467",
+    "Title": "UIA Verify is a great library / tool",
+    "LatestDate": "2012-04-24T21:21:32.8-07:00"
+  },
+  {
+    "Id": "438015",
+    "Title": "TreeWalker cant see element, but UIA Verify can. Help please!",
+    "LatestDate": "2013-03-26T04:51:24.033-07:00"
+  },
+  {
+    "Id": "438634",
+    "Title": "Why it cannot identify the some of the controls which Inspect could identify?",
+    "LatestDate": "2013-03-31T23:58:02.79-07:00"
+  },
+  {
+    "Id": "452253",
+    "Title": "UI Verify will not recognize label controls",
+    "LatestDate": "2013-08-02T10:02:55.54-07:00"
+  },
+  {
+    "Id": "458806",
+    "Title": "UIA verify tool is not able to recognize Stingray controls",
+    "LatestDate": "2013-09-23T08:01:28.61-07:00"
+  },
+  {
+    "Id": "461327",
+    "Title": "Where to start?",
+    "LatestDate": "2015-03-09T04:29:43.49-07:00"
+  },
+  {
+    "Id": "533234",
+    "Title": "Does UIA Verify recognize MS Ribbon control ?",
+    "LatestDate": "2014-02-20T14:58:21.293-08:00"
+  },
+  {
+    "Id": "546785",
+    "Title": "how to capture a menu item with UIA Verify?",
+    "LatestDate": "2014-05-28T02:22:29.843-07:00"
+  },
+  {
+    "Id": "551661",
+    "Title": "InitializeWindow() calling-line from Window() function from Window.cs takes 4 mins to pass call to InitializeWindow() functions first line ActionPerformed() ",
+    "LatestDate": "2014-07-15T23:03:26.75-07:00"
+  },
+  {
+    "Id": "562235",
+    "Title": "System.Windows.Forms.ListView Check box is not recognized",
+    "LatestDate": "2014-08-27T03:38:32.737-07:00"
+  },
+  {
+    "Id": "645212",
+    "Title": "Can I use UI Automation in a Commercial Tool?",
+    "LatestDate": "2015-09-19T17:28:10.89-07:00"
+  }
+]

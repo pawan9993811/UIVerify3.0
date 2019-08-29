@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "95540",
+    "ThreadId": "28647",
+    "Html": "After attempting to look at the sources in the download, I think there are either some files missing and I need to follow a differnt installation proceedure.  In the WUIATestLibrary project, I think I am missing the following files:<br>\r\n    <br>\r\n    UIVerify\\MSAA&amp;UIA Tools Source Code\\common\\Input\\Input.cs<br>\r\n    UIVerify\\MSAA&amp;UIA Tools Source Code\\common\\Input\\NativeMethods.cs<br>\r\n    UIVerify\\MSAA&amp;UIA Tools Source Code\\common\\Input\\SafeNativeMethods.cs<br>\r\n    UIVerify\\MSAA&amp;UIA Tools Source Code\\common\\Input\\UnsafeNativeMethods.cs<br>\r\n    UIVerify\\MSAA&amp;UIA Tools Source Code\\Shared\\Narrator\\NarratorErrorDialogs.cs<br>\r\n    UIVerify\\WUIATestLibrary\\Resources\\uiverify.resources<br>\r\n<br>\r\nI am also unable to see the following projects and thier corresponding sources:<br>\r\n    UIVerify\\MSAA&amp;UIA Tools Source Code\\Logging\\Win7\\WUIALogging\\WUIALogging.csproj<br>\r\n    UIVerify\\MSAA&amp;UIA Tools Source Code\\Logging\\Win7\\wuialoggingxml\\wuialoggingxml.csproj<br>\r\n<br>\r\n<br>\r\nI did attempt to convert the projects and solutions for use in Visual Studio 2008.  <br>\r\n    \r\n",
+    "PostedDate": "2008-05-29T10:26:07.31-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "95555",
+    "ThreadId": "28647",
+    "Html": "If I use the source code tab to download the sources, all is good.\r\n",
+    "PostedDate": "2008-05-29T10:51:58.853-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

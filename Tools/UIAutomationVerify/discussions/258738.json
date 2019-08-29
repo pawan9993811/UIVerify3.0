@@ -1,0 +1,34 @@
+[
+  {
+    "Id": "617137",
+    "ThreadId": "258738",
+    "Html": "\r\n<p>winXP</p>\r\n<p>I downloaded the UI verify</p>\r\n<p>1.</p>\r\n<p>and tried to run it from VS 2008 but got an error compile :</p>\r\n<p>the type initializer for system.window.automation.automationelement threw an exception</p>\r\n<p>how I can resolve this problem ?</p>\r\n<p>2.</p>\r\n<p>&nbsp;when I run directly from&nbsp;VisualUIAVerify.exe</p>\r\n<p>&nbsp;got same error as above</p>\r\n<p>&nbsp;</p>\r\n<p>any help will be appreciated</p>\r\n<p>&nbsp;</p>\r\n<p>rgrds</p>\r\n<p>lazar</p>\r\n<p>&nbsp;</p>\r\n",
+    "PostedDate": "2011-05-23T23:18:46.393-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "632085",
+    "ThreadId": "258738",
+    "Html": "<p>I also have this problem running visualUIAVerify.exe from the folder directly from my flash drive on a 64 bit XP install.</p>\r\n<p>The system is up to date and has updated to .Net 4.0</p>\r\n<p>I tried to start it up with the /noclientsideprovider in case that would help, but still couldn't get it to run on that machine.</p>\r\n<p>Anyone have alternatives I could try to get it to run?</p>",
+    "PostedDate": "2011-06-23T13:18:33.607-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "658724",
+    "ThreadId": "258738",
+    "Html": "<p>Getting the same error on Windows XP SP3 with all updates.</p>\r\n<p>Tried with&nbsp;/noclientsideprovider and got same error.</p>\r\n<p>Please, help!</p>",
+    "PostedDate": "2011-08-16T01:45:45.143-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "957428",
+    "ThreadId": "258738",
+    "Html": "\r\n<p>From what I can tell, looking at the Visual UIA Verify (2.0) source code, it was compiled with .Net 3.5, so perhaps check that you have installed .Net 3.5 Framework installed on your host machine. We had a couple of XP and 2003 machines here that wouldn't\r\n run the tool, but after doing a Windows Update and ensuring that .Net 3.5 was installed, it resolved the issue.</p>\r\n<p>I haven't spent time trying to confirm the specific package, as for the machines we were having trouble with, I ended up just pulling all critical Windows Updates. I had tried doing it step by step to see if I could find which one, but after messing with\r\n .Net 4.0, and .Net 2.0 frameworks, and a variety of VC++ runtimes, I ended up giving up, and just pulling all updates. Didn't have the time to trace the specific dependency.</p>\r\n",
+    "PostedDate": "2012-12-18T00:22:46.187-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

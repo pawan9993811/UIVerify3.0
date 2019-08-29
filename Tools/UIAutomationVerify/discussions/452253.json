@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "1076096",
+    "ThreadId": "452253",
+    "Html": "Hi All, \r<br />\nI am quite new to UI Automation and UI Verify tool.\r<br />\nI am mostly using UI Verify to lookup property values in my custom application.\r<br />\nSo far all controls can be recognized and give me some useful information but when I try to recognize Label control (standard, basic label) UI Verify cannot recognize it on the form.\r<br />\nHas anybody else experience similar behavior? and if so is there any fix for this?\r<br />\nMuch appreciated for all the help.\r<br />\nRegards\r<br />\nKris<br />\n",
+    "PostedDate": "2013-08-02T10:02:55.54-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

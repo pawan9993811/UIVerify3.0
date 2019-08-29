@@ -1,0 +1,28 @@
+[
+  {
+    "Id": "0",
+    "Name": "Latest version of UIA Verify",
+    "DevelopmentStatus": "Stable",
+    "Description": "*For the latest information* and release of UIA Verify, please refer to the [url:Windows Software Development Kit| http://msdn.microsoft.com/en-US/windows/desktop/bg162891] and the [url:documentation.| http://msdn.microsoft.com/en-us/windows/bb735024.aspx]",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2013-09-13T16:30:42.057-07:00",
+    "Files": []
+  },
+  {
+    "Id": "1",
+    "Name": "First check-in for UIA Verify 1.0",
+    "DevelopmentStatus": "None",
+    "Description": "We just made first check-in for UIA Verify 1.0 source code. Precompiled binary from this check-in (x86 only) is attached for your convenience.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2008-03-05T19:27:29.403-08:00",
+    "Files": [
+      {
+        "Id": "ba1611e4-cc7d-4202-a796-316c76609f80",
+        "FileName": "UIAVerify_x86.zip",
+        "Url": "./1/ba1611e4-cc7d-4202-a796-316c76609f80",
+        "Type": "Application",
+        "UploadDate": "2008-03-05T19:27:01.56-08:00"
+      }
+    ]
+  }
+]

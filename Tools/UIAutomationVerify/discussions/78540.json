@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "268846",
+    "ThreadId": "78540",
+    "Html": "<p>Hi</p>\r\n<p>I try uiaverify to found a custom control inside of a gridsplitter.</p>\r\n<p>Application is written in wpf and the area is templated and has a style.</p>\r\n<p>UIAVerify display the gridsplitter on this way:</p>\r\n<p>&nbsp;<a href=\"http://img683.imageshack.us/img683/8831/uiaverify.jpg\">http://img683.imageshack.us/img683/8831/uiaverify.jpg</a></p>\r\n<p>I try Snoop (<a href=\"http://blois.us/Snoop/\">http://blois.us/Snoop/</a>)</p>\r\n<p>&nbsp;<a href=\"http://img268.imageshack.us/img268/4964/snoopo.jpg\">http://img268.imageshack.us/img268/4964/snoopo.jpg</a></p>\r\n<p>in snoop the real structure will be shown.</p>\r\n<p>why does the tools display different results for the same element?</p>\r\n<p>Throndorin</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2009-12-18T02:22:02.04-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

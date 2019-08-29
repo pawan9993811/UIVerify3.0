@@ -1,0 +1,71 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "pop",
+    "LastUpdatedDate": "2013-02-21T16:05:31.973-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "UIAutomationVerify",
+    "ReportedDate": "2009-09-08T14:36:51.687-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "UI",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10604
+  },
+  "FileAttachments": [
+    {
+      "FileId": 3358,
+      "FileName": "LayoutContainerView.xaml",
+      "DownloadUrl": ".\\3358"
+    },
+    {
+      "FileId": 3380,
+      "FileName": "LayoutContainerView.xaml",
+      "DownloadUrl": ".\\3380"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "Pls remove the attachment.",
+      "PostedDate": "2009-09-13T21:27:55.47-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2009-09-14T08:14:25.937-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2009-09-14T08:14:51.64-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T16:05:31.973-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

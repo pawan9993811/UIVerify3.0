@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "187675",
+    "ThreadId": "55571",
+    "Html": "I had written the following function to open an Application.<br>\r\nIts working fine for calc, winword but for iexplore its throwing an Exception of type 'System.ArgumentException' was thrown.<br>\r\n<br>\r\npublic static AutomationElement LaunchApplication(string fileName, string arguments)<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Process process = new Process();<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; process.StartInfo.FileName = fileName;<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; process.StartInfo.Arguments = arguments;<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; process.Start();<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; process.WaitForInputIdle(1000);<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // Procss is exited for pnagent.exe so the requested information doesnt not exist.There shoudl<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //be some other way to get the automation Element<br>\r\n<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return (AutomationElement.FromHandle(process.MainWindowHandle)); *** Exception****<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br>\r\n<br>\r\nAny help ?<br>\r\n<br>\r\n<br>\r\n",
+    "PostedDate": "2009-05-07T03:11:59.057-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

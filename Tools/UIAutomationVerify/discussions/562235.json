@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "1293864",
+    "ThreadId": "562235",
+    "Html": "Hi All,\r<br />\nI am quite new to UI Automation and UI Verify tool.<br />\n<h2>In our application, we are using System.Windows.Forms.ListView with CheckBoxes property set to true. </h2>\n<h2>The CheckBoxes property allows you to display a check box next to each item in the list. This enables your application to display a list of items (and subitems if the View property is set to View.Details) </h2>\nSo far individual row and all values in each row is identified. Only checkbox is not recognized by UI verify.\r<br />\n<br />\nHas anybody else experience similar behavior? and if so is there any fix for this?\r<br />\n<br />\nMuch appreciated for all the help.\r<br />\nRegards \r<br />\nHari Hara<br />\n",
+    "PostedDate": "2014-08-27T03:38:32.737-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

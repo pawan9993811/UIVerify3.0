@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "1021174",
+    "ThreadId": "438015",
+    "Html": "I'm trying to parse my UI using a TreeWalker. My UI consists mainly out of DevExpress components. \r<br />\n<br />\nI have a single pane which contain one child pane and several child buttons. They're all on the same level so I suppose they are siblings. When I use the TreeWalker to parse the elements, I can only 'see' the pane - never the buttons.\r<br />\n<br />\nWhat bugs me is when I use UIA Verify and select one of the buttons, it manages to build and draw the hierarchy. Then, if I select controls, via the context menu &quot;Go to sibling&quot;, I can easily jump between the child pane and other child buttons.\r<br />\n<br />\nI've tried all different versions of the TreeWalker e.g. Control and Raw, yet I end up with the same results - nothing - it only sees the child pane.\r<br />\n<br />\nCan someone perhaps give me a high level overview of how UIA Verify is able to build up its hierarchy and still show (and manage to navigate between) all components? Why can't I replicate that in code?\r<br />\n<br />\nMany thanks<br />\n",
+    "PostedDate": "2013-03-26T04:51:24.033-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

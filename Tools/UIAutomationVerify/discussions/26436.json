@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "88437",
+    "ThreadId": "26436",
+    "Html": "\r\nfirstly, i am very happy to see Microsoft release this framework.<br /><br />i just go through the Input.cs which provide Mouse function such as click.<br /><br />could you please add more complex ones, such as:<br />Drag(). i mean press mouse button at (x1,y1) then release at (x2,y2). because i need draw a line or create a Rectangle region .<br />another thing is some time mouse action will combine with keyboard, such as Ctrl+\"MouseLeft\". <br /><br />here is my expected functions:<br /><br />at here:<br />MouseClickType {SingleClick ,DoubleClick ,}<br />MouseFlags {<br />        LeftButton ,<br />        MiddleButton ,<br />        RightButton ,<br />                  }<br />KeyboardFlags<br />    {<br />        NoFlag ,<br />        ShiftFlag ,<br />        ControlFlag ,<br />        AltFlag ,<br />        LAltFlag ,<br />        RAltFlag ,<br />    }<br /><br />Click(MouseClickType clickType);<br />Click(MouseFlags button);<br />Click(MouseClickType clickType, MouseFlags button);<br />Click(MouseClickType clickType, MouseFlags button, int relativeX, int relativeY, KeyboardFlags keyFlag);<br />Click(MouseClickType clickType, MouseFlags button, int relativeX, int relativeY, KeyboardFlags keyFlag, bool verifyVisible);<br />ClickDrag(int absoluteToX, int absoluteToY);<br />ClickDrag(MouseFlags button, int absoluteToX, int absoluteToY);<br />ClickDrag(MouseFlags button, int relativeFromX, int relativeFromY, int absoluteToX, int absoluteToY, KeyboardFlags keyFlag);<br />ClickDrag(MouseFlags button, int relativeFromX, int relativeFromY, int absoluteToX, int absoluteToY, KeyboardFlags keyFlag, bool smoothDrag);<br />ClickDrag(MouseFlags button, int relativeFromX, int relativeFromY, int absoluteToX, int absoluteToY, KeyboardFlags keyFlag, bool delay, bool tridentHack);<br /><br />i know all these need native method support.<br /><br />thanks!!!<br />",
+    "PostedDate": "2008-04-23T00:33:32.793-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "110481",
+    "ThreadId": "26436",
+    "Html": "<p>Hi Guys </p>\r\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Do we have any update on the Mouse Click Events. I have an requirement where i have to click on a specific Co-Ordinates on a window. Could some one let me know how to use the functions for the mouse click.</p>\r\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Window.Click does not&nbsp;accepts any parameters to it. Like X and Y co-Ordinate.&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"font-size:13px\">\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n</span></p>\r\n<p><span style=\"font-size:13px;color:#2b91af\">Window</span><span style=\"font-size:13px\"> window = application.GetWindow(</span><span style=\"font-size:13px;color:#a31515\">&quot;Dashboard&quot;</span><span style=\"font-size:13px\">, </span><span style=\"font-size:13px;color:#2b91af\">InitializeOption</span><span style=\"font-size:13px\">.NoCache);\r\n<p>&nbsp;</p>\r\n<p>window.Click();</p>\r\n</span></p>\r\n<p>Thanks</p>\r\n<p>Bagya</p>\r\n<p>&nbsp;</p>\r\n",
+    "PostedDate": "2008-08-11T20:53:43.927-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "111032",
+    "ThreadId": "26436",
+    "Html": "Does anybody have solution to this??\r\n",
+    "PostedDate": "2008-08-14T00:06:33.67-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

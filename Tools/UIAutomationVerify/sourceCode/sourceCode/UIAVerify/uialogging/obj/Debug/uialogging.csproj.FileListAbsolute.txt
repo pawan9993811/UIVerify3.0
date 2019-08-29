@@ -1,0 +1,5 @@
+C:\Users\chinp\Desktop\common-automation-framework\Tools\UIAutomationVerify\sourceCode\sourceCode\UIAVerify\bin\debug\UIALogging.dll
+C:\Users\chinp\Desktop\common-automation-framework\Tools\UIAutomationVerify\sourceCode\sourceCode\UIAVerify\bin\debug\UIALogging.pdb
+C:\Users\chinp\Desktop\common-automation-framework\Tools\UIAutomationVerify\sourceCode\sourceCode\UIAVerify\uialogging\obj\Debug\uialogging.csproj.CoreCompileInputs.cache
+C:\Users\chinp\Desktop\common-automation-framework\Tools\UIAutomationVerify\sourceCode\sourceCode\UIAVerify\uialogging\obj\Debug\UIALogging.dll
+C:\Users\chinp\Desktop\common-automation-framework\Tools\UIAutomationVerify\sourceCode\sourceCode\UIAVerify\uialogging\obj\Debug\UIALogging.pdb

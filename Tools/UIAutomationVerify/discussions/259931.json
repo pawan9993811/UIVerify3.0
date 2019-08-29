@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "621958",
+    "ThreadId": "259931",
+    "Html": "<p>Hi,</p>\n<p>I'm testing very old application written in Borland C++. I'm trying to prepare automated tests for it based on open solutions. <br />I chose White project which bases on UI Automation libraries as I want to join my tests with nUnit and Hudson.</p>\n<p>Generally I don't  have problem with recognizing objects but when I try to recognize content inside the tab contained in Tab Panel or try to see MenuItems of Menu bar <br />then UI Automation/UI Verify works wired. When I run UI Verify (the previous version because the new one doesn't  work on my box) I see that objects can be 'catch' (noticed) only then <br />when I set 'Focus tracking' option and click on target object or change the keyboard cursor on it. Otherwise it's impossible to find them.</p>\n<p>This is an example code I use for my White/UI Automation libraries to get to the mentioned above elements:</p>\n<p>Tab tab = window.Get&lt;Tab&gt;();<br />ITabPage tabPage =  tab.SelectedTab; <br />AutomationElementCollection myCollection = tabPage.AutomationElement.FindAll(TreeScope.Descendants, Condition.TrueCondition); <br />window.Get&lt;Button&gt;(\"buttonName\");</p>\n<p>unfortunately myCollection is empty even though UI Verifyier can show me children of my 'tab' panel.</p>\n<p>Can you please help me to describe  how the mechnizm of tracking is implemented because I'm interested to integrate it/create similar solution in my project.</p>\n<p>Regards<br />R.</p>",
+    "PostedDate": "2011-06-02T06:32:11.637-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

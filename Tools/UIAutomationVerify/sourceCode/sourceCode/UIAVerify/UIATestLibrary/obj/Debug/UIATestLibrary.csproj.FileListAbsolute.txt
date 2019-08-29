@@ -1,0 +1,7 @@
+C:\Users\chinp\Desktop\common-automation-framework\Tools\UIAutomationVerify\sourceCode\sourceCode\UIAVerify\bin\debug\WUIATestLibrary.dll
+C:\Users\chinp\Desktop\common-automation-framework\Tools\UIAutomationVerify\sourceCode\sourceCode\UIAVerify\bin\debug\WUIATestLibrary.pdb
+C:\Users\chinp\Desktop\common-automation-framework\Tools\UIAutomationVerify\sourceCode\sourceCode\UIAVerify\UIATestLibrary\obj\Debug\UIATestLibrary.csprojAssemblyReference.cache
+C:\Users\chinp\Desktop\common-automation-framework\Tools\UIAutomationVerify\sourceCode\sourceCode\UIAVerify\UIATestLibrary\obj\Debug\UIATestLibrary.csproj.CoreCompileInputs.cache
+C:\Users\chinp\Desktop\common-automation-framework\Tools\UIAutomationVerify\sourceCode\sourceCode\UIAVerify\UIATestLibrary\obj\Debug\UIATestLibrary.csproj.CopyComplete
+C:\Users\chinp\Desktop\common-automation-framework\Tools\UIAutomationVerify\sourceCode\sourceCode\UIAVerify\UIATestLibrary\obj\Debug\WUIATestLibrary.dll
+C:\Users\chinp\Desktop\common-automation-framework\Tools\UIAutomationVerify\sourceCode\sourceCode\UIAVerify\UIATestLibrary\obj\Debug\WUIATestLibrary.pdb

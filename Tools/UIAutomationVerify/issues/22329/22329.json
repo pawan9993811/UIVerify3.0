@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "When we do not perform any selection for few minutes after launching the Visual UI Automation Verify or when we close, minimize the windows after launching Visual UI Automation Verify, the application crashes giving option to Abort, Ignore or Reload. Has someone faced similar issue? Please  provide the steps to resolve the problem. Visual Studio version used to debug the code is VS2010.",
+    "LastUpdatedDate": "2016-08-19T04:33:58.16-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "UIAutomationVerify",
+    "ReportedDate": "2016-08-19T04:33:58.16-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "UI Automation Verify crashes",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 22329
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

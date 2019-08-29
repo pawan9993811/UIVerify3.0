@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "When you use the GridPatternPropertyObject (e.g. go to the GridPattern in the property grid for a ListView using a GridView), you're passing the Column as the first parameter and the Row as the second. Well, the GridPattern object takes the Row as the first parameter and the Column as the second.",
+    "LastUpdatedDate": "2013-02-21T16:05:32.193-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "UIAutomationVerify",
+    "ReportedDate": "2009-08-28T12:09:01.247-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "GridPatternPropertyObject.GetItem has the parameters backwards",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10555
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

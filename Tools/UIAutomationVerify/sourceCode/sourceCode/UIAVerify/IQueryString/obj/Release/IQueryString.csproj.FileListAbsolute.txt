@@ -1,0 +1,6 @@
+C:\Users\chinp\Desktop\common-automation-framework\Tools\UIAutomationVerify\sourceCode\sourceCode\UIAVerify\IQueryString\bin\debug\IQueryString.dll
+C:\Users\chinp\Desktop\common-automation-framework\Tools\UIAutomationVerify\sourceCode\sourceCode\UIAVerify\IQueryString\bin\debug\IQueryString.pdb
+C:\Users\chinp\Desktop\common-automation-framework\Tools\UIAutomationVerify\sourceCode\sourceCode\UIAVerify\IQueryString\obj\Release\IQueryString.csproj.CoreCompileInputs.cache
+C:\Users\chinp\Desktop\common-automation-framework\Tools\UIAutomationVerify\sourceCode\sourceCode\UIAVerify\IQueryString\obj\Release\IQueryString.dll
+C:\Users\chinp\Desktop\common-automation-framework\Tools\UIAutomationVerify\sourceCode\sourceCode\UIAVerify\IQueryString\obj\Release\IQueryString.pdb
+C:\Users\chinp\Desktop\common-automation-framework\Tools\UIAutomationVerify\sourceCode\sourceCode\UIAVerify\IQueryString\obj\Release\IQueryString.csprojAssemblyReference.cache

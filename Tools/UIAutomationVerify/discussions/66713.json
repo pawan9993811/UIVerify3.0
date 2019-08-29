@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "226755",
+    "ThreadId": "66713",
+    "Html": "<p>Hi,</p>\r\n<p>I have a windows application (Win32 compliant, an MFC application), which has a container window that has some html pages embedded in it. I'm able to identify all the win32 controls&nbsp;but, coul not find children of this html page. I'm only able to navigate till InternetExplorer_server class whose control property is Pane. But could not get any children of this element. This element is found to be implemented ValuePattern and returning the url of the page thru the value. Please help me out finding a way to iterate thru all the children of this page.</p>\r\n<p>Thanks</p>\r\n<p>Sreedhar</p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2009-08-22T20:59:24.87-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

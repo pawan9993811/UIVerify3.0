@@ -1,0 +1,7 @@
+C:\Users\chinp\Desktop\common-automation-framework\Tools\UIAutomationVerify\sourceCode\sourceCode\UIAVerify\UIAComWrapper\UIAComWrapper\bin\debug\UIAComWrapper.dll
+C:\Users\chinp\Desktop\common-automation-framework\Tools\UIAutomationVerify\sourceCode\sourceCode\UIAVerify\UIAComWrapper\UIAComWrapper\bin\debug\UIAComWrapper.pdb
+C:\Users\chinp\Desktop\common-automation-framework\Tools\UIAutomationVerify\sourceCode\sourceCode\UIAVerify\UIAComWrapper\UIAComWrapper\obj\Debug\UIAComWrapper.csprojAssemblyReference.cache
+C:\Users\chinp\Desktop\common-automation-framework\Tools\UIAutomationVerify\sourceCode\sourceCode\UIAVerify\UIAComWrapper\UIAComWrapper\obj\Debug\UIAComWrapper.csproj.CoreCompileInputs.cache
+C:\Users\chinp\Desktop\common-automation-framework\Tools\UIAutomationVerify\sourceCode\sourceCode\UIAVerify\UIAComWrapper\UIAComWrapper\obj\Debug\UIAComWrapper.csproj.CopyComplete
+C:\Users\chinp\Desktop\common-automation-framework\Tools\UIAutomationVerify\sourceCode\sourceCode\UIAVerify\UIAComWrapper\UIAComWrapper\obj\Debug\UIAComWrapper.dll
+C:\Users\chinp\Desktop\common-automation-framework\Tools\UIAutomationVerify\sourceCode\sourceCode\UIAVerify\UIAComWrapper\UIAComWrapper\obj\Debug\UIAComWrapper.pdb

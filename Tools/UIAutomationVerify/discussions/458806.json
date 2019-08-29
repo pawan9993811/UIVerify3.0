@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "1098048",
+    "ThreadId": "458806",
+    "Html": "Hi Team,\r<br />\n<br />\nUIA verify tool is not able to identify Stingray controls. So, we are planning to write UIA proxy providers for it. Can you please tell different ways on implementing the uia layer for these controls?<br />\n",
+    "PostedDate": "2013-09-23T08:01:28.61-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "83841",
+    "ThreadId": "24997",
+    "Html": "\r\nI have tried the latest .net c# express edition 2008 and it doesn't work.<br /><br />What environment is required to open this solution?<br /><br />Thanks in advance.<br />",
+    "PostedDate": "2008-03-30T13:14:26.193-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "85081",
+    "ThreadId": "24997",
+    "Html": "\r\nPrior to the launch, we have tested the project with VC# Express (2008), VS2008, and VS2005. What particualr issue are you having with the project? VC# Express should convert the project solution file to 2008 format when it opens.<br />",
+    "PostedDate": "2008-04-04T12:28:17.807-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

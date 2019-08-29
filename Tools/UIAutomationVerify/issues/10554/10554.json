@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "You have a bug in the AutomationElementPropertyObject ctor. You're asking for a pattern from the AutomationElement and then checking if its a GridPattern before checking if its a TablePattern. Well, TablePattern derives from GridPattern so you end up storing the results of request for the TablePattern in the _gridPatternPropertyObject instead of in the _tablePatternPropertyObject.",
+    "LastUpdatedDate": "2013-02-21T16:05:32.383-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "UIAutomationVerify",
+    "ReportedDate": "2009-08-28T12:06:27.79-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "TablePattern not properly supported",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10554
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

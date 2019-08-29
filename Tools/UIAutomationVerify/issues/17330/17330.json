@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "This is a great tool ! During automation, I found that Windows Security dialog is not visible through this tool.\n \nNote: This issue happens only on Windows 8 dev build, but perfectly works on Windows XP/7\n \nNeed additional info, please let me know.\n \nThanks",
+    "LastUpdatedDate": "2013-02-21T16:05:31.21-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "UIAutomationVerify",
+    "ReportedDate": "2012-01-31T13:43:51.22-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Windows Security dialog is not visible",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 17330
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

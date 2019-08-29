@@ -1,0 +1,7 @@
+C:\Users\chinp\Desktop\common-automation-framework\Tools\UIAutomationVerify\sourceCode\sourceCode\UIAVerify\SampleDriver\obj\Debug\SampleDriver.csproj.CoreCompileInputs.cache
+C:\Users\chinp\Desktop\common-automation-framework\Tools\UIAutomationVerify\sourceCode\sourceCode\UIAVerify\bin\debug\SampleDriver.exe
+C:\Users\chinp\Desktop\common-automation-framework\Tools\UIAutomationVerify\sourceCode\sourceCode\UIAVerify\bin\debug\SampleDriver.pdb
+C:\Users\chinp\Desktop\common-automation-framework\Tools\UIAutomationVerify\sourceCode\sourceCode\UIAVerify\SampleDriver\obj\Debug\SampleDriver.csprojAssemblyReference.cache
+C:\Users\chinp\Desktop\common-automation-framework\Tools\UIAutomationVerify\sourceCode\sourceCode\UIAVerify\SampleDriver\obj\Debug\SampleDriver.csproj.CopyComplete
+C:\Users\chinp\Desktop\common-automation-framework\Tools\UIAutomationVerify\sourceCode\sourceCode\UIAVerify\SampleDriver\obj\Debug\SampleDriver.exe
+C:\Users\chinp\Desktop\common-automation-framework\Tools\UIAutomationVerify\sourceCode\sourceCode\UIAVerify\SampleDriver\obj\Debug\SampleDriver.pdb

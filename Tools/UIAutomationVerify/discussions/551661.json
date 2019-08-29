@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "1266120",
+    "ThreadId": "551661",
+    "Html": "Hey there,\r<br />\n<br />\nI am not sure what is gone wrong after sudden reboot of my machine where everything was working as expected.\r<br />\n<br />\nearlier:\r<br />\nI am using Attach function to attach existing application process with process-id &amp; that process gets attached quickly within few seconds...\r<br />\n<br />\nAfter sudden reboot:\r<br />\nThe same flow takes more than 4 mins to do the same job...\r<br />\n<br />\nOn debugging, i found that all the time is consumed in passing control from Window() function's InitializeWindow() calling-line to InitializeWindow() functions first line ActionPerformed()...\r<br />\n<br />\nEverything before &amp; after that pass is working expected within few seconds\r<br />\n<br />\nI tried all everything, like rebooting machine again, rebuilding all source-codes, referring dll's again etc... but NO-LUCK...\r<br />\n<br />\nPlease let me know in case any solution on this to get it to earlier stage.\r<br />\n<br />\nregards,\r<br />\najayj<br />\n",
+    "PostedDate": "2014-07-15T23:03:26.75-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

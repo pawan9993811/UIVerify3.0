@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Win8 may have only 4.0 installed.\nI used to manually add the following config\n\n```\n<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<configuration>\n    <startup>\n        <supportedRuntime version=\"v2.0.50727\" />\n        <supportedRuntime version=\"v4.0\" />\n    </startup>\n</configuration>\n```",
+    "LastUpdatedDate": "2013-08-13T12:22:25.473-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "UIAutomationVerify",
+    "ReportedDate": "2013-08-13T12:21:35.187-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Add .config file to allow running in 4.0 only machines out of the box.",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 20076
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

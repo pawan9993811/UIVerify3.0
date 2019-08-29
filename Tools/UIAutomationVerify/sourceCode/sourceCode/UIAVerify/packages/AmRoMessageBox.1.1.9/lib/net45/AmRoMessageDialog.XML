@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AmRoMessageDialog</name>
+    </assembly>
+    <members>
+        <member name="T:AmRoMessageDialog.WinMessageBox">
+            <inheritdoc cref="T:AmRoMessageDialog.WinMessageBox" />
+            <summary>
+            Interaction logic for WinMessageBox.xaml
+            </summary>
+            <summary>
+            WinMessageBox
+            </summary>
+        </member>
+        <member name="M:AmRoMessageDialog.WinMessageBox.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:AmRoMessageDialog.AmRoMessageBox.DisplayMessageDialog">
+            <summary>
+            Display message box dialog
+            </summary>
+            <returns>AmRoMessageBoxResult</returns>
+        </member>
+        <member name="M:AmRoMessageDialog.AmRoMessageBox.ResetOptions">
+            <summary>
+            Reset message box options
+            </summary>
+        </member>
+        <member name="M:AmRoMessageDialog.AmRoMessageBox.GetSolidBrush(System.String)">
+            <summary>
+            Convert hexadecimal color to SolidColorBrush
+            </summary>
+            <param name="hexColor">Hexadecimal color</param>
+            <returns>SolidColorBrush</returns>
+        </member>
+        <member name="M:AmRoMessageDialog.AmRoMessageBox.ShowDialog(System.String,System.Boolean)">
+            <summary>
+            Display message - static mode
+            </summary>
+            <param name="message">Message content</param>
+            <param name="reverseContentDirection">Reverse message content direction</param>
+            <returns>AmRoMessageBoxResult</returns>
+        </member>
+        <member name="M:AmRoMessageDialog.AmRoMessageBox.ShowDialog(System.String,System.String,System.Boolean)">
+            <summary>
+            Display message with a caption - static mode
+            </summary>
+            <param name="message">Message content</param>
+            <param name="caption">Message box caption</param>
+            <param name="reverseContentDirection">Reverse message content direction</param>
+            <returns>AmRoMessageBoxResult</returns>
+        </member>
+        <member name="M:AmRoMessageDialog.AmRoMessageBox.ShowDialog(System.String,System.String,AmRoMessageDialog.AmRoMessageBoxButton,System.Boolean)">
+            <summary>
+            Display message with a caption and custom buttons - static mode
+            </summary>
+            <param name="message">Message content</param>
+            <param name="caption">Message box caption</param>
+            <param name="messageBoxButton">Message box buttons</param>
+            <param name="reverseContentDirection">Reverse message content direction</param>
+            <returns>AmRoMessageBoxResult</returns>
+        </member>
+        <member name="M:AmRoMessageDialog.AmRoMessageBox.ShowDialog(System.String,System.String,AmRoMessageDialog.AmRoMessageBoxButton,AmRoMessageDialog.AmRoMessageBoxIcon,System.Boolean)">
+            <summary>
+            Display message with a caption, custom buttons and custom icon - static mode
+            </summary>
+            <param name="message">Message content</param>
+            <param name="caption">Message box caption</param>
+            <param name="messageBoxButton">Message box buttons</param>
+            <param name="messageBoxIcon">Message box icon</param>
+            <param name="reverseContentDirection">Reverse message content direction</param>
+            <returns>AmRoMessageBoxResult</returns>
+        </member>
+        <member name="M:AmRoMessageDialog.AmRoMessageBox.ShowDialog(System.String,System.String,AmRoMessageDialog.AmRoMessageBoxButton,AmRoMessageDialog.AmRoMessageBoxIcon,System.Windows.FlowDirection,System.Boolean)">
+            <summary>
+            Display message with a caption, custom buttons and custom icon - static mode
+            </summary>
+            <param name="message">Message content</param>
+            <param name="caption">Message box caption</param>
+            <param name="messageBoxButton">Message box buttons</param>
+            <param name="messageBoxIcon">Message box icon</param>
+            <param name="dircetion">Specify message box direction</param>
+            <param name="reverseContentDirection">Reverse message content direction</param>
+            <returns>AmRoMessageBoxResult</returns>
+        </member>
+        <member name="M:AmRoMessageDialog.AmRoMessageBox.Show(System.String,System.Boolean)">
+            <summary>
+            Display message
+            </summary>
+            <param name="message">Message content</param>
+            <param name="reverseContentDirection">Reverse message content direction</param>
+            <returns>AmRoMessageBoxResult</returns>
+        </member>
+        <member name="M:AmRoMessageDialog.AmRoMessageBox.Show(System.String,System.String,System.Boolean)">
+            <summary>
+            Display message with a caption
+            </summary>
+            <param name="message">Message content</param>
+            <param name="caption">Message box caption</param>
+            <param name="reverseContentDirection">Reverse message content direction</param>
+            <returns>AmRoMessageBoxResult</returns>
+        </member>
+        <member name="M:AmRoMessageDialog.AmRoMessageBox.Show(System.String,System.String,AmRoMessageDialog.AmRoMessageBoxButton,System.Boolean)">
+            <summary>
+            Display message with a caption and custom buttons
+            </summary>
+            <param name="message">Message content</param>
+            <param name="caption">Message box caption</param>
+            <param name="messageBoxButton">Message box buttons</param>
+            <param name="reverseContentDirection">Reverse message content direction</param>
+            <returns>AmRoMessageBoxResult</returns>
+        </member>
+        <member name="M:AmRoMessageDialog.AmRoMessageBox.Show(System.String,System.String,AmRoMessageDialog.AmRoMessageBoxButton,AmRoMessageDialog.AmRoMessageBoxIcon,System.Boolean)">
+            <summary>
+            Display message with a caption, custom buttons, custom icon in RTL languages
+            </summary>
+            <param name="message">Message content</param>
+            <param name="caption">Message box caption</param>
+            <param name="messageBoxButton">Message box buttons</param>
+            <param name="messageBoxIcon">Message box icon</param>
+            <param name="reverseContentDirection">Reverse message content direction</param>
+            <returns>AmRoMessageBoxResult</returns>
+        </member>
+        <member name="T:AmRoMessageDialog.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:AmRoMessageDialog.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:AmRoMessageDialog.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

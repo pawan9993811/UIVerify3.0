@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "1211436",
+    "ThreadId": "533234",
+    "Html": "Hello,\r<br />\n I do automation for WPF application using UIAutomation API. Everything went fine until I hit the MS Ribbon control. I have no trouble to see information about Ribbon and its children through the Inspect.exe, but inside the code I cannot obtain the information about those elements. \r<br />\nI am wondering if UIA Verify tool is able to identify Ribbon control ?\r<br />\n<br />\nTIA\r<br />\nMarina<br />\n",
+    "PostedDate": "2014-02-20T14:58:21.293-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

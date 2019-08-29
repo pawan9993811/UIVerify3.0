@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "795204",
+    "ThreadId": "341334",
+    "Html": "\r\n<p>&#65279;</p>\r\n<p><span>While runthe &nbsp;VisualUIAVerify.exe in my XP-SP3 i got following error message &quot;The type initialize for 'System.Windows.Automation.AutomationElement' threw an exception&quot;.Anyone pls help me..</span></p>\r\n",
+    "PostedDate": "2012-02-22T08:10:10.787-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "957425",
+    "ThreadId": "341334",
+    "Html": "\r\n<p>With machines where I have observed this error, it has generally been resolved by running the Windows Update for that machine. I think Visual UIA Verofy requires the .Net 3.5 Framework, but I haven't tinkered with it enough to be sure. But I've found that\r\n if you simply do a full Windows Update and pull all the critical items, then it'll resolve your issue.</p>\r\n",
+    "PostedDate": "2012-12-18T00:18:29.297-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

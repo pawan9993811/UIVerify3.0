@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "617065",
+    "ThreadId": "258715",
+    "Html": "\r\n<div>\r\n<div>\r\n<p>I create a chart in winform via VS 2010 C# on Win7 and want to automated test the chart such as get the data from the chart.</p>\r\n<p>First, I use UIAVerify tool to get the automation element.&nbsp;It could get all&nbsp;automation elements' information, such as chart's data point label.&nbsp;But I cannot get the data poine label automation element programmatically with .Net UIA library.</p>\r\n<p>How could I get the automation element like UIAVerify? I found the AutomationElement in UIAVerify has more propertoes than the one in UIAutomationClient.dll.&nbsp;</p>\r\n<p>Regards,</p>\r\n<p>Kevin</p>\r\n</div>\r\n</div>\r\n",
+    "PostedDate": "2011-05-23T18:59:18.963-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

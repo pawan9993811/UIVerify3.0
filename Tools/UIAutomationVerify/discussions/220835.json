@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "471336",
+    "ThreadId": "220835",
+    "Html": "Hi Experts,\r\n\r\nHere is a basic question. \r\nI wanted to know few things:\r\n1. How does UIA Verify identify the objects?\r\n2. How does UIA Verify build the Object Heirarchy?\r\n3. Is it possible to integrate UIA Verfy with VSTS 2010?\r\n4. Can we use the UIA Verify identification properties of an object to create a Object in VSTS 2010?\r\n\r\nThanks,\r\nShailesh",
+    "PostedDate": "2010-07-22T22:19:25.287-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

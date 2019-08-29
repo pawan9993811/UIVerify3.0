@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi, \n I try to rebuild the source code under MS visual 2010/2012.  Please help me to solve it. Many thanks.\n\n  The error message is as below:\n\"Error: The command \"\"C:\\Windows\\Microsoft.NET\\Framework\\v2.0.50727\\\\ilasm\" D:\\My Projects\\2014\\AUTO_TEST_PROJECT\\UIverify\\uiautomationverify-94877\\UIAVerify\\UIATestLibrary\\\\..\\UIAComWrapper\\UIAComWrapper\\CustomInterop.UIAutomationClient.il /dll /output=D:\\My Projects\\2014\\AUTO_TEST_PROJECT\\UIverify\\uiautomationverify-94877\\UIAVerify\\bin\\debug\\\\Interop.UIAutomationClient.dll\" exited with code 1.\"",
+    "LastUpdatedDate": "2015-11-02T14:16:01.577-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "UIAutomationVerify",
+    "ReportedDate": "2014-07-16T02:09:58.57-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "ilasm error when rebuild under MSV2010/2013 express",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 21152
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Old post but I also experienced this problem with the source code which I found on the web on 20151102 (not a CodePlex download).  (The Date Modified on the downloaded .sln file was 20131123.)  After unsuccessfully trying  various changes to the Project Properties > Build Event > Pre-build event command line for the UIAComWrapper and UIATestLibrary projects, I decided to build the required dll manually:\r\n\r\n(1) opened a CMD session at:\n     C:\\Users\\<yourusername>\\Documents\\Visual Studio 2010\\Projects\\UIAVerify\\UIAVerify\\UIAComWrapper\\UIAComWrapper>\r\n\r\n               Obviously that needs to be tweaked to your installation with the important point being:\n                   ...\\UIAVerify\\UIAVerify\\UIAComWrapper\\UIAComWrapper\r\n\r\n(2) Entered the following command which was successfully executed:\n\tC:\\Windows\\Microsoft.NET\\Framework\\v2.0.50727\\\\ilasm CustomInterop.UIAutomationClient.il /dll /output=bin\\debug\\Interop.UIAutomationClient.dll\r\n\r\n(3) Deleted the pre-build events from both of the projects listed above.\r\n\r\nThe Solution then compiled cleanly.\r\n\r\nOne possibility is that ilasm has a problem with the path lengths.  Both yours and mine seem fairly long.\r\n\r\nYou've probably moved on from this problem but others might experience the build problem.  I was having problems with both UISpy and the Windows 10 SDK VisualUIAVerify throwing an exception on a VB6 dialog box, which could only be recognized with Ctrl in Hover mode.  My downloaded VisualUIAVerify initially seemed to have a similar problem but then started working (no code or setting changes; it's a mystery to me) so that the VB6 dialog box was fully mapped in the UIAVerify interface.\r\n\r\n",
+      "PostedDate": "2015-11-02T14:15:11.19-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Old post but I also experienced this problem with the source code which I found on the web on 20151102 (not a CodePlex download).  (The Date Modified on the downloaded .sln file was 20131123.)  After unsuccessfully trying  various changes to the Project Properties > Build Event > Pre-build event command line for the UIAComWrapper and UIATestLibrary projects, I decided to build the required dll manually:\r\n\r\n(1) opened a CMD session at:\n     C:\\Users\\<yourusername>\\Documents\\Visual Studio 2010\\Projects\\UIAVerify\\UIAVerify\\UIAComWrapper\\UIAComWrapper>\r\n\r\n               Obviously that needs to be tweaked to your installation with the important point being:\n                   ...\\UIAVerify\\UIAVerify\\UIAComWrapper\\UIAComWrapper\r\n\r\n(2) Entered the following command which was successfully executed:\n\tC:\\Windows\\Microsoft.NET\\Framework\\v2.0.50727\\\\ilasm CustomInterop.UIAutomationClient.il /dll /output=bin\\debug\\Interop.UIAutomationClient.dll\r\n\r\n(3) Deleted the pre-build events from both of the projects listed above.\r\n\r\nThe Solution then compiled cleanly.\r\n\r\nOne possibility is that ilasm has a problem with the path lengths.  Both yours and mine seem fairly long.\r\n\r\nYou've probably moved on from this problem but others might experience the build problem.  I was having problems with both UISpy and the Windows 10 SDK VisualUIAVerify throwing an exception on a VB6 dialog box, which could only be recognized with Ctrl in Hover mode.  My downloaded VisualUIAVerify initially seemed to have a similar problem but then started working (no code or setting changes; it's a mystery to me) so that the VB6 dialog box was fully mapped in the UIAVerify interface.\r\n\r\n",
+      "PostedDate": "2015-11-02T14:16:01.577-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

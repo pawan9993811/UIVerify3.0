@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi, Im Fatmarine. \n\nfirst of all, thank you for your service. \n\nbut, I have some problem. \n\nBy keyboard, when I selected compoent (focused) \nUIA is not recorgnize component property. \n\nIs not problem? or Normal operation? \n\nhave a good day. \nthanks. \n\nFrom Fatmarine :)",
+    "LastUpdatedDate": "2014-12-17T19:13:32.463-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "UIAutomationVerify",
+    "ReportedDate": "2014-12-17T18:27:30.54-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "UIA Not Recognized, When selecting Component by Keyboard",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 21616
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

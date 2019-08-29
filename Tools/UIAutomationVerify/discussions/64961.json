@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "221222",
+    "ThreadId": "64961",
+    "Html": "<p>Hi,</p>\r\n<p>I checked out the framework, but I could not run the SampleDriver or VisualUIAVerify. When I start them, I get an error window:</p>\r\n<p>&quot;The application failed to initialize properly (0xc0000135)&quot;</p>\r\n<p>&nbsp;</p>\r\n<p>I am using Windows XP, any idea what could be the problem?</p>\r\n<p>&nbsp;</p>\r\n<p>Thanks!</p>",
+    "PostedDate": "2009-08-09T03:08:39.66-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

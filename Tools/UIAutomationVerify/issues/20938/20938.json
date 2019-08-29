@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi,\n\nIam using UI automation APi for automating ASP.Net controls on Web page.\n\n Iam trying to identify the text box using Automation ID .The following code is intermittently working.\n   aeWindow = aeDesktop.FindFirst(TreeScope.Descendants, new PropertyCondition(AutomationElement.NameProperty, WindowName));\n                 aeText = aeWindow.FindFirst(TreeScope.Descendants, new PropertyCondition(AutomationElement.AutomationIdProperty, TextBoxName));\n             \nSome times Iam getting the text box and sometimes it is returning null.\n\nIs there any specific reason for not identifying the controls? Why it is inconsistently behaving?\n\nThanks,\n\nMohan",
+    "LastUpdatedDate": "2014-04-17T13:14:38.743-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "UIAutomationVerify",
+    "ReportedDate": "2014-04-17T13:14:38.743-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Problem with UI Automation",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 20938
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

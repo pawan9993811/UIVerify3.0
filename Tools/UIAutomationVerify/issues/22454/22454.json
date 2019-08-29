@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hello,\n\n1) I started to use  UIATest Library.\n\n2) I am using https://github.com/TestStack/UIAVerify/blob/master/SampleDriver/Program.cs\n\nIt works me fine with Notepad.exe example\nIt works me fine we my another application.\n\n3) But once i run tests for application i want to automate i have exception as appear in file attached\n4) I tired to use C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64\\UIAVerify\\VisualUIAVerifyNative.exe \nand all tests with my application are working\n\nPlease, advice\nAnatoly",
+    "LastUpdatedDate": "2017-01-17T02:50:56.34-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "UIAutomationVerify",
+    "ReportedDate": "2017-01-17T02:50:56.34-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Exception Type: System.Reflection.TargetInvocationException",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 22454
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

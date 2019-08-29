@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "103779",
+    "ThreadId": "31231",
+    "Html": "Hi ,<br>\r\n<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;Can we use the UI Automation Verify to test the infragistics controls, anyone have the experience? Please help to share us. Thanks.<br>\r\n<br>\r\n",
+    "PostedDate": "2008-07-09T23:11:38.967-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "247631",
+    "ThreadId": "31231",
+    "Html": "<p>Hi ALL,</p>\r\n<p>&nbsp;</p>\r\n<p>I am doing analysis of open source automated tools becoz i have been given an assignment of product automation. My application uses infragistic controls at multiple places. Can any body tell me that UIA verify supports INFRAGISTIC controls ?</p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2009-10-20T03:55:53.367-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

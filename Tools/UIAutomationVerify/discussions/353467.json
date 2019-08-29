@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "828191",
+    "ThreadId": "353467",
+    "Html": "\r\n<p>Hello,</p>\r\n<p>Based on this tool, I have created an automation tool&nbsp;https://github.com/ldtp/winldtp you can write tests in Python scripting language. API's are compatible with&nbsp;http://ldtp.freedesktop.org/wiki/ which works on Linux / Solaris platform. This can\r\n be extended to other scripting language or loaded into your project.</p>\r\n<p>Microsoft have done a great job, without this library its not possible. Have verified this test's on Windows XP SP3/ Windows 7 SP1/ Windows 8 development version.</p>\r\n<p>To test the setup you can&nbsp;http://download.freedesktop.org/ldtp/winldtp-latest/WinLDTP.msi</p>\r\n<p>Thanks</p>\r\n",
+    "PostedDate": "2012-04-24T21:21:32.8-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

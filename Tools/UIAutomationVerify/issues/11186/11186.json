@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "the line\n            return string.Format(\"[{0}:{1}:{2}:{3}]\",DateTime.Now.Hour.ToString(\"00\"), DateTime.Now.Minute.ToString(\"00\"), DateTime.Now.Second.ToString(\"00\"), DateTime.Now.Millisecond.ToString(\"00\").Substring(0, 2));\nhas the following problems:\na) DateTime.Now might change part way through, resulting in say 11:59:59:99 being displayed as 11:00:00:00, as 11:59:59:99 becoming 12:00:00:00 after 11 has been calced. if order is right to left then 11:59:59:99 might be displayed as 12:59:59:99.\nb) Milliseconds of 10 displays as \"10\", 98 displays as \"98\", 100 as \"10\" and 980 as \"98\". some of these are incorrect.\nThese problems can be fixed by using a more compact line of\n            return DateTime.Now.ToString(\"HH:mm:ss:ff\");",
+    "LastUpdatedDate": "2013-02-21T16:05:31.753-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "UIAutomationVerify",
+    "ReportedDate": "2009-12-13T21:53:51.377-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "uialogging - LogInfo - BaseInfo - ToString() has several bugs",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 11186
+  },
+  "FileAttachments": [],
+  "Comments": []
+}
