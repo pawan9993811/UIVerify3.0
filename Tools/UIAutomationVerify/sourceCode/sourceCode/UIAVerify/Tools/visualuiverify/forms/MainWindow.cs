@@ -172,7 +172,7 @@ namespace VisualUIAVerify.Forms
         /// </summary>
         private void SelectXmlFile()
         {
-            DialogResult dr = MessageBox.Show("Select 'Or' CreateNew XML File to Add Elements \n" +
+            DialogResult dr = MessageBox.Show("Add Element to XML File   \n" +
                 "\n     1. Click 'Yes' to create new XML file. \n" +
                 "\n     2. Click 'No' to select existing xml file. \n " +
                 "\n     3. Click 'Cancel' to proceed - capture elements.", "Important Information",
@@ -190,7 +190,7 @@ namespace VisualUIAVerify.Forms
             }
             else
             {
-                //Do nothing.
+                this.Text = "Visual UI Automation Verify : Client Side Provider";
             }
 
         }
@@ -888,7 +888,7 @@ namespace VisualUIAVerify.Forms
             if (openFile.ShowDialog() == DialogResult.OK)
             {
                 selectedFileName = openFile.FileName;
-                MessageBox.Show("File loaded: " + selectedFileName);
+                MessageBox.Show("File loaded: " + selectedFileName, "Success!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             RepositoryUtility utility = new RepositoryUtility();
             if (!string.IsNullOrEmpty(OpenFileLocation))
@@ -896,8 +896,12 @@ namespace VisualUIAVerify.Forms
                 RepositoryNode nodeInfo = utility.ReadData(OpenFileLocation);
                 AutomationElementTreeControl aetc = new AutomationElementTreeControl();
                 aetc.FileName = OpenFileLocation;
+                this.Text = "Visual UI Automation Verify : Client Side Provider - File Name : " + OpenFileLocation;
             }
-            this.Text = "Visual UI Automation Verify : Client Side Provider - File Name : " + OpenFileLocation;
+            else if (string.IsNullOrEmpty(OpenFileLocation))
+            {
+                this.Text = "Visual UI Automation Verify : Client Side Provider";
+            }
         }
         private void NewToolStripMenuItem_Click(object sender, EventArgs e)
         {

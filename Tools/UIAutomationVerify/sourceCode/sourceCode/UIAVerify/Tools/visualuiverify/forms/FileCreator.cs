@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text.RegularExpressions;
 using System.Windows.Forms;
 using VisualUIAVerify.Controls;
 
@@ -29,8 +27,24 @@ namespace VisualUIAVerify.Forms
         }
         private void Button1_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrEmpty(FileName.Text) || string.IsNullOrEmpty(FileLocation.Text))
+            {
+                MessageBox.Show("File Name and Folder Location should not be empty", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            else if (!ValidateFileName(FileName.Text) || !TryGetFullPath(FileLocation.Text))
+            {
+                if(!ValidateFileName(FileName.Text))
+                    MessageBox.Show("Invalid file name.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                else if(!TryGetFullPath(FileLocation.Text))
+                    MessageBox.Show("Invalid folder path.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
             string folderName = string.Concat(FileLocation.Text.Substring(FileLocation.Text.LastIndexOf("\\"),
                 FileLocation.Text.Length - FileLocation.Text.LastIndexOf("\\")).Replace(@"\", ""));
+
+            FileLocation.Text = Path.GetFullPath(FileLocation.Text);
 
             if (FileLocation.Text == fileDirPath)
             {
@@ -38,57 +52,70 @@ namespace VisualUIAVerify.Forms
                 FileLocation.Focus();
                 return;
             }
-            else
+          
+            try
             {
-                foreach (string d in Directory.GetDirectories(fileDirPath, "*.*", SearchOption.AllDirectories))
+                //if (!ValidateFileName(FileName.Text))
+                //{
+                //    MessageBox.Show("Invalid file name .Expected file name [Examlple : fileName.xml]", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                //    return;
+                //}
+                // check File not created
+                bool fileExists = File.Exists(FileLocation.Text + @"\" + FileName.Text);
+                bool folderExists = Directory.Exists(FileLocation.Text);
+                if (fileExists)
                 {
-                    if (new DirectoryInfo(d).Name.ToUpperInvariant().Equals(folderName.ToUpperInvariant()))
-                    {
-
-                        DialogResult dr = MessageBox.Show("Folder " + folderName + " already Exists", "Warining",
+                    MessageBox.Show("Folder &File already Exists", "Warining",
                                   MessageBoxButtons.OK,
                                   MessageBoxIcon.Exclamation,
                                   MessageBoxDefaultButton.Button1);
-                        break;
-                    }
-                }
-            }
-            try
-            {
-                if (!ValidateFileName(FileName.Text))
-                {
-                    MessageBox.Show("Invalid file name .Expected file name [Examlple : fileName.xml]", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    xmlLocation = FileLocation.Text + "\\" + FileName.Text;
                     return;
                 }
-                // check File not created
-                if (!File.Exists(FileLocation.Text + "\\" + FileName.Text))
+                else if (folderExists)
                 {
-                    if (!Directory.Exists(FileLocation.Text))
+                    DialogResult dr = MessageBox.Show("Folder already exists but file not exists.\nDo you want to create xml file as folder already exists? ", "Warining",
+                                  MessageBoxButtons.YesNo,
+                                  MessageBoxIcon.Exclamation,
+                                  MessageBoxDefaultButton.Button1);
+
+                    if (dr == DialogResult.Yes)
                     {
-                        Directory.CreateDirectory(FileLocation.Text);
+                        File.Create(FileLocation.Text + "\\" + FileName.Text);
+                        //Strore file location
+                        xmlLocation = FileLocation.Text + "\\" + FileName.Text;
+                        DialogResult d = MessageBox.Show("File creation successful. File Name: " + string.Concat(FileLocation.Text, @"\", FileName.Text), "Message", MessageBoxButtons.OK);
+                        if (d == DialogResult.OK)
+                        {
+                            this.Close();
+                        }
                     }
+                    else if (dr == DialogResult.No)
+                    {
+                        FileLocation.Focus();
+                    }
+                }
+                else
+                {
+                    Directory.CreateDirectory(FileLocation.Text);
                     //create xml file 
                     File.Create(FileLocation.Text + "\\" + FileName.Text);
                     //Strore file location
                     xmlLocation = FileLocation.Text + "\\" + FileName.Text;
-                    DialogResult d = MessageBox.Show("'File Created Successfully:' " + string.Concat(FileLocation.Text, @"\", FileName.Text), "Message", MessageBoxButtons.OK);
+                    DialogResult d = MessageBox.Show("'File Created Successfully:' " + string.Concat(FileLocation.Text, @"\", FileName.Text), "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     if (d == DialogResult.OK)
                     {
                         this.Close();
                     }
                 }
-                else
-                {
-                    MessageBox.Show("Folder/File already Exists", "Warining",
-                                  MessageBoxButtons.OK,
-                                  MessageBoxIcon.Exclamation,
-                                  MessageBoxDefaultButton.Button1);
-                    xmlLocation = FileLocation.Text + "\\" + FileName.Text;
-                }
             }
             catch
             {
-                MessageBox.Show("Error creating file .Cannot Access Location");
+                
+                MessageBox.Show("Error Cannot Access Location", "Warining",
+                                  MessageBoxButtons.OK,
+                                 MessageBoxIcon.Exclamation,
+                                 MessageBoxDefaultButton.Button1);
             }
             AutomationElementTreeControl aetc = new AutomationElementTreeControl();
             aetc.FileName = NewFileLocation;
@@ -96,6 +123,8 @@ namespace VisualUIAVerify.Forms
 
         public static bool ValidateFileName(string fileName)
         {
+            if (String.IsNullOrWhiteSpace(fileName)) { return false; }
+            if (fileName.Contains(" ")) { return false; }
             string temp = notAllowedChar + ".,+_)(*&^%$#@!~";
             bool flag = true;
             string extention = Path.GetExtension(fileName);
@@ -111,6 +140,30 @@ namespace VisualUIAVerify.Forms
             catch { return false; }
         }
 
+        private static bool TryGetFullPath(string path, bool exactPath = true)
+        {
+            if (String.IsNullOrWhiteSpace(path)) { return false; }
+            if (path.Contains(" ")) { return false; }
+            bool isValid = true;
+            try
+            {
+                string fullPath = Path.GetFullPath(path);
+                if (exactPath)
+                {
+                    string root = Path.GetPathRoot(path);
+                    isValid = string.IsNullOrEmpty(root.Trim(new char[] { '\\', '/' })) == false;
+                }
+                else
+                {
+                    isValid = Path.IsPathRooted(path);
+                }
+            }
+            catch (Exception)
+            {
+                isValid = false;
+            }
+            return isValid;
+        }
         public void btnBrowser_Click(object sender, EventArgs e)
         {
             try
@@ -136,13 +189,8 @@ namespace VisualUIAVerify.Forms
             }
         }
 
-        private void FileLocation_Leave(object sender, EventArgs e)
-        {
-        }
-
         private void FileLocation_Enter(object sender, EventArgs e)
         {
-
             txtFileLocation = FileLocation.Text;
         }
 
@@ -162,6 +210,11 @@ namespace VisualUIAVerify.Forms
                                   MessageBoxDefaultButton.Button3);
                 FileName.Text = txtFileName;
             }
+            else if (!ValidateFileName(FileName.Text))
+            {
+                MessageBox.Show("Invalid file name.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
             else
             {
                 var vf = FileLocation.Text.Split(new[] { Path.DirectorySeparatorChar, Path.AltDirectorySeparatorChar });
@@ -171,11 +224,6 @@ namespace VisualUIAVerify.Forms
                 txtFileName = FileName.Text;
                 txtFileLocation = FileLocation.Text;
             }
-        }
-
-        private void FileLocation_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
